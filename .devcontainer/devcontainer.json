@@ -1,0 +1,23 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/dotnet
+{
+	"name": "C# (.NET)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1-9.0-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {	}
+	},
+
+	"customizations": {
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": ["ms-dotnettools.csdevkit", 
+            "ms-dotnettools.vscodeintellicode-csharp", 
+            "ms-windows-ai-studio.windows-ai-studio",
+            "ms-azuretools.vscode-containers"],
+			// Uncomment to set a specific version of the C# extension.
+			// "settings": {
+			// 	"dotnet.defaultSolution": "src/YourSolution.sln"
+			// }
+		}
+	}
+}
