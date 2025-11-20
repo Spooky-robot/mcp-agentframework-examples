@@ -41,6 +41,9 @@ public class UserTools
         };
     }
 
+    [McpServerTool, Description("Get all users whith thier assigned auth groups in the system")]
+    [McpMeta("category", "User Management")]
+    [McpMeta("dataSource", "AuthGroupDB")]
     public IEnumerable<UserData> GetDetailedUserData()
     {
         // Normally you would call your user database here
