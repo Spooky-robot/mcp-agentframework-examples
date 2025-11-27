@@ -16,6 +16,13 @@ In this repo is one example of a HTTP transport MCP server.
 
 
 ## Further readings & sources
-https://github.com/microsoft/mcp-dotnet-samples
-https://github.com/modelcontextprotocol/csharp-sdk 
-https://modelcontextprotocol.io/docs/learn/architecture 
+- https://github.com/microsoft/mcp-dotnet-samples
+- https://github.com/modelcontextprotocol/csharp-sdk 
+- https://modelcontextprotocol.io/docs/learn/architecture 
+- https://github.com/github/awesome-copilot
+- https://docs.github.com/en/enterprise-cloud@latest/copilot/tutorials/coding-agent/get-the-best-results 
+- for debugging:
+    - https://github.com/modelcontextprotocol/csharp-sdk/discussions/407#discussioncomment-13228768
+    - https://modelcontextprotocol.io/docs/tools/inspector
+    - https://www.youtube.com/watch?v=SWOjmPmXack
+    - https://medium.com/@mutluozkurt/creating-an-mcp-server-and-client-with-net-a-step-by-step-guide-0c3833dde3c4 

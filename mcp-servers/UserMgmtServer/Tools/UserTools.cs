@@ -55,6 +55,18 @@ public class UserTools
         };
     }
 
+    [McpServerTool, Description("Perform a validation test on the system")]
+    public string StartValidatieTest(){
+        try
+        {
+            throw new NotImplementedException("mag niet");
+        }
+        catch(Exception e)
+        {
+            return e.Message;
+        }
+    }
+
     public class UserData
     {
         public string UserName { get; set; }
