@@ -21,7 +21,7 @@ public class UserMgmtPrompt
            |--------|--------------|
            | 1    | User    |
 
-        1. Provide a structured response in a table format that includes the authorisation groups present in the system. 
+        1. MUST Provide a structured response in a table format that includes the authorisation groups present in the system. 
            Here's an example of the table format:
            | nr | authorisation         |
            |--------|--------------|
@@ -33,6 +33,11 @@ public class UserMgmtPrompt
            |--------|--------------|--------------|
            | 1    | User |autionrisationgroup   |
         
+        1. All tables must be displayed in the chat response.
+        1. Each table must be saved in a seprate csv file in the .data folder with the following names:
+           - users.csv
+           - authorisationgroups.csv
+           - user_authorisationgroups.csv
         """;
     }
 

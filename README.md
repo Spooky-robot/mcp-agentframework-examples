@@ -20,3 +20,4 @@ In this repo is one example of a HTTP transport MCP server.
 - https://github.com/modelcontextprotocol/csharp-sdk 
 - https://modelcontextprotocol.io/docs/learn/architecture 
 - https://github.com/github/awesome-copilot
+- https://docs.github.com/en/enterprise-cloud@latest/copilot/tutorials/coding-agent/get-the-best-results 
