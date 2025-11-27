@@ -3,16 +3,6 @@
 		"user-mgmt": {
 			"url": "http://localhost:8080",
 			"type": "http"
-		},
-		"awesome-copilot": {
-			"type": "stdio",
-			"command": "docker",
-			"args": [
-				"run",
-				"-i",
-				"--rm",
-				"ghcr.io/microsoft/mcp-dotnet-samples/awesome-copilot:latest"
-			]
 		}
 	},
 	"inputs": []
